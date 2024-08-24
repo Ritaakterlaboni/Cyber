@@ -1,0 +1,160 @@
+/*all common css start*/
+
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+
+.navbar-expand-lg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+
+/*navbar css start*/
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #fff;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding:0 15px;
+}
+.nav-item a:hover{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%,#3ED5DD,rgb(2, 0, 8));;
+    padding:40px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
+    box-shadow: 3px 9px 49px 0px rgba(255,255,255,1);
+}
+.navbtn a{
+    padding:10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+   background: #3ED5DD;
+    border-radius: 10px;
+    color:#fff;
+}
+
+.navbar-expand-lg .navbar-nav:hover{
+    background: #f1eeee73;
+    padding:10px;
+    border-radius: 20px;
+}
+.nav-corner-logo{
+    z-index:0;
+}
+
+/*navbar part css end*/
+/*banner part css start*/
+
+#bannerpart{
+    background: url(../images/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:150px;
+}
+.bannertittle h3{
+    font-size: 71px;
+    font-weight: 700;
+    color:#fff;
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 30px;
+    z-index: index 1;
+}
+.bannertittle p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+    font-family: "Poppins", sans-serif;
+}
+.bannerbtn a{
+    padding:20px;
+    background: #3ED5DD;
+    color:#fff;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+}
+.bannerbtn span{
+    padding:10px;
+    background: #3ED5DD;
+    color:#fff;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    
+}
+.img:hover{
+    cursor: pointer;
+}
+
+/*banner part css end*/
+
+/*about us part css start*/
+#Aboutuspart{
+    background: url(../images/Aboutus.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:100px;
+}
+
+.images{
+    position:relative;
+   /* -webkit-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+-moz-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);*/
+}
+.images img:hover{
+    -webkit-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+-moz-box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+box-shadow: 0px 6px 37px -1px rgba(62,213,221,1);
+}
+.images span{
+    position:absolute;
+    top:150px;
+    left:110px;
+}
+.text h4{
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    color:#3ED5DD;
+}
+.text h2{
+    color:#ffffff;
+    font-size: 67px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+}
+.text p{
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.aboutus_btn a{
+    padding:20px;
+    background: #3ED5DD;
+    text-align: center;
+    border-radius: 10px;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+}
+/*about us part css end*/

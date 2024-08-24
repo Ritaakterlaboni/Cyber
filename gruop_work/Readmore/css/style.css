@@ -1,0 +1,55 @@
+#readmore{
+    background: url(../images/Hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:200px;
+    
+    
+}
+.readbtn p{
+    background: #3ED5DD;
+    padding:20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.text .readbtn p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    color:#ffffff;
+}
+
+.text h2{
+    color:#ffffff;
+    font-size: 67px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.text p{
+    color:#ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.txt h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    color:#3ED5DD;
+}
+.txt p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Titillium Web", sans-serif;
+}
+.txt h4{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Titillium Web", sans-serif;
+}
