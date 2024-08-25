@@ -25,6 +25,7 @@
     font-size: 67px;
     font-weight: 600;
     font-family: "Titillium Web", sans-serif;
+    text-shadow: 10px -5px 5px rgba(255,255,255,0.41);
 }
 
 .text p{
@@ -52,4 +53,23 @@
     font-size: 16px;
     font-weight: 400;
     font-family: "Titillium Web", sans-serif;
+    margin-bottom: 35px;
+}
+.homebtn a{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%,#3ED5DD,rgb(2, 0, 8));;
+    padding: 20px 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Titillium Web", sans-serif;
+    color:#ffffff;
+    margin-right: 30px;
+}
+.span a{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Titillium Web", sans-serif;
+    color:#ffffff;
 }

@@ -26,6 +26,7 @@ ul,li{
     padding:0 15px;
 }
 .nav-item a:hover{
+   
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%,#3ED5DD,rgb(2, 0, 8));;
     padding:40px;
@@ -48,6 +49,7 @@ ul,li{
     background: #f1eeee73;
     padding:10px;
     border-radius: 20px;
+   
 }
 .nav-corner-logo{
     z-index:0;
@@ -98,6 +100,7 @@ ul,li{
 }
 .img:hover{
     cursor: pointer;
+  
 }
 
 /*banner part css end*/
